@@ -1,0 +1,16 @@
+h1{
+    color:rgb(91, 182, 120);
+    border: solid 4px;
+    padding: 10px;
+    max-width: 30%;
+    text-align: center;
+
+}
+h2{
+    color:rgb(40, 157, 157);
+}
+p{
+    color:rgb(54, 99, 195);
+    border:solid 2px;
+    padding: 10px;
+}
