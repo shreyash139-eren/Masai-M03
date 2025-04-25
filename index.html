@@ -3,31 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inroduction</title>
+    <title>Document</title>
+    <style>
+        header{
+    color: aliceblue;
+    background:linear-gradient( #0c2787 0%, #56e6f6 100%);
+    text-align: center ;
+    padding: 40px;
+
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+footer{
+    margin-left: 15%;
+}
+a{
+    color: aliceblue;
+    
+}
+#table{
+    background-color: rgb(25, 28, 111);
+    color: antiquewhite;
+    
+}
+#div{
+    height: 30px;
+    background-color:white;
+
+}
+#vid{
+    height: 30px;
+    background:linear-gradient( #081447 0%, #043c42 100%) ;
+}
+    </style>
 </head>
 <body>
-    <h1>Hi, I am Kumar Shreyash.</h1>
-    <h2><u>About Me:</u></h2>
-    <p>
-        I am from Dhanbad, Jharkhand. I've completed my graduation from BBMKU,Dhanbad in 2019. After which I started my preparation for Banking and SSC examinations but was not able to clear the mains. After 3 years of preparation, I started appearing in interviews to get a job in MNC, and in december 2023, I got selected as a PE in Cognizant, Where I worked for more than a year and later on decided to resign and join Masai.</p>
+    <header id="header">
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+    <main id="main">
 
-    <h2><u>Hobbies:</u></h2>
-    <p>
-        My hobbies are reading, travelling and watching anime. I'm a fan of fiction, either it is a book or series, I like them all. The last fictional novel I completed was "The Alchemist" and it was a great story and I was so into it that I completed it in a day. I like watching anime's a lot and some of my all time favourites are "Attack On Titan","Vinland Saga","Bersek" and many more and travelling is the one thing that I can say
-    </p>
-    <h2><u>Contact Information</u></h2>
-    <form action="">
-        <div><label for="name">Name:</label>
-        <input type="text" name="" id="name" required minlength="6" maxlength="15">
-    </div>
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" name="" id="email" required>
-    </div>
-    <div>
-        <input type="submit" name="Submit">
-    </div>
-    </form>
+       <section>
+        <h2>Welcome to My Portfolio</h2>
+        <p>This portfolio showcases my projects and provides information about my background and contact details.</p>
+       </section> 
+
+       <section>
+        <h2>About</h2>
+        <p>Hello! I'm a web developer passionate about building dynamic and responsive websites. I enjoy creating user-friendly interfaces and working on challenging projects.</p>
+       </section>
+
+       <section>
+        <h2>Projects</h2>
+        <table>
+            <thead>
+                <tr id="table">
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project Alpha</td>
+                    <td>A web-based tool for tracking project progress and managing tasks.</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Portfolio Site</td>
+                    <td>A personal website showcasing my work and skills as a web developer.</td>
+                    <td>2024</td>
+                </tr>
+            </tbody>
+        </table>
+       </section>
+       
+    </main>
+    <footer id="footer">
+        <section>
+            <h2>Contact</h2>
+            <form action="">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="" id="name" required placeholder="Enter your Name"><br><br>
+                </div>
+    
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="" id="email" required placeholder="john@abc.com"><br><br>
+                </div>
+    
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id=""></textarea><br><br>
+                </div>
+    
+                <button>Submit</button>
+            </form>
+           </section>
+    </footer>
+
+    <div id="div"></div>
+    <div id="vid"></div>
 </body>
 </html>
-<link rel="stylesheet" href="styles.css" />

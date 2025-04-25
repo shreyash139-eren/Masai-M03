@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username" name="username" required> 
+        <!-- 1. the name attribute was written with capital N in the place of for attribute
+             2. a " was missing in name attribute
+             3. added required-->
+      
+        <label for="passcode">Password:</label>
+        <input type="password" id="passcode" name="password" required minlength="6">
+      <!-- 1. type was spelled incorrectly 
+           2. added required
+           3. added minlength as 6-->
+
+        <button Submit>Submit Form</buttn>
+      </form>      
+</body>
+</html>
