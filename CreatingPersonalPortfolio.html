@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<style>
+    .head{
+        color: navy;
+    }
+    .nav{
+        color: white;
+    }
+    a{
+        margin: 10px;
+    }
+    a:hover{
+        color: rgb(209, 137, 212)
+    }
+    a:active{
+        background-color: rgb(211, 184, 33);
+        color: black;
+    }
+    main{
+        margin: 10px;
+    }
+    header{
+        background-color: rgb(224, 92, 16);
+        text-align: center;
+        padding: 15px;
+    }
+    footer{
+
+        background-color: rgb(224, 92, 16);
+        text-align: center;
+        padding: 10px;
+    }
+    div.img{
+        width: 200px;
+        height: 200px;
+        border: 1px ;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    div.proj1{
+        padding: 5px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    p.ss1{
+        display: inline;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    section.p2{
+        padding: 5px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    p.ss2{
+        display: inline;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .ss1,.ss2,#ss1{
+        margin: 15px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1 class="head">Welcome to My Portfolio</h1>
+        <div>
+            <nav>
+                <a href="" class="nav">About</a>
+                <a href="" class="nav">Projects</a>
+                <a href="" class="nav">Contact</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating functional and beautiful web applications.</p>
+            <div class="img">
+                <img src="" alt="A picture of me">
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="proj1">
+                <h3 class="ss1">Project One: Personal Blog</h3>
+                <p class="ss1">Screenshot of my personal blog project</p>
+                <p id="ss1">A personal blog where I write about web development, programming, and technology.</p>
+                <a href="" class="ss1">View Project</a>
+                <ul class="ss1"> 
+                    <li>Technologies Used:</li>
+                    <ul>
+                        <li> HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </ul>
+            </div>
+        </section><br><br>
+
+        <section class="p2">
+            <h3 class="ss1">Project Two: E-commerce Site</h3>
+            <p class="ss2">Screenshot of my e-commerce project</p>
+            <p id="ss1">An e-commerce website built to simulate a real-world online shopping experience.</p>
+            <a href="" class="ss1">View Project</a>
+            <ul class="ss1">
+                <li>Technologies Used:</li>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Contact Me</h3>
+            <form action="">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div><br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required placeholder="abc@23.com">
+                </div><br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="" id="message"></textarea>
+                </div><br>
+                <button>Submit</button>
+            </form>
+        </section>
+    </main><br><br>
+
+    <footer>
+            <p> &#169; 2024 My Portfolio</p>
+            <p>Follow me on <a href="">Twitter</a> | <a href="">GitHub</a></p>
+    </footer>
+</body>
+</html>
