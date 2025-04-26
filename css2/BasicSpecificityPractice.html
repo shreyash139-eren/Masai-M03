@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          div#special h1,div#special p{
+            color: rgb(234, 36, 175);
+        }
+        div h1,p{
+            color: blue;
+        }
+        *{
+            color: green;
+        } 
+        div.highlight h1,div.highlight p{
+            color: rgb(239, 153, 14);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="highlight" id="special">
+        <h1>Heading1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, molestiae. Quia corrupti veniam id eveniet beatae adipisci quidem. Consequatur, esse?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquam fugiat neque?</p>
+    </div>
+</body>
+</html>
+<!-- The color in ID selector is getting applied and its because the Specificity of ID selector is more than universal, element and class selector. -->
