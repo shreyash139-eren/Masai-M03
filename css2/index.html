@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.first a{
+            color: red;
+        }
+        div.second a{
+            color: rgb(35, 212, 47);
+        }
+        div.third a{
+            color: rgb(208, 33, 176);
+        }
+        div.first a:hover{
+            color: blueviolet;
+        }
+        div.first a:active{
+            color: rgb(43, 226, 137);
+            background-color: black;
+        }
+        div.second a:hover{
+            color: green;
+        }
+        div.second a:active{
+            color: rgb(241, 232, 232);
+            background-color: rgb(12, 45, 110);
+        }
+        div.third a:hover{
+            color: rgb(81, 37, 239);
+        }
+        div.third a:active{
+            color: rgb(231, 77, 77);
+            background-color: rgb(11, 55, 144);
+        }
+        div.first>a{
+            color: rgb(20, 141, 247);
+        }
+        div.first>a:hover{
+            color: rgb(83, 198, 70);
+        }
+        div.first>a:active{
+            color: black;
+            background-color: aqua;
+        }
+        div.second>a{
+            color: rgb(63, 63, 203);
+        }
+        div.second>a:hover{
+            color: rgb(44, 170, 237);
+        }
+        div.second>a:active{
+            color: rgb(244, 237, 237);
+            background-color: rgb(8, 9, 9);
+        }
+        div.third>a{
+            color: rgb(68, 136, 200);
+        }
+        div.third>a:hover{
+            color: rgb(216, 213, 19);
+        }
+        div.third>a:active{
+            color: rgb(209, 16, 16);
+            background-color: rgb(8, 9, 9);
+        }
+        a[href^="https"]{
+            color: rgb(122, 41, 3) !important
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+    <div>
+        <div class="first">Section1<br>
+            <a href="https://www.google.co.in">Google</a>
+            <a href="">Section1-B</a>
+            <a href="">Section1-C</a>
+            <div>Sub-section<br>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Orders</a>
+            </div>
+        </div>
+
+        <div class="second">Section2 <br>
+            <a href="">Section2-A</a>
+            <a href="">Section2-B</a>
+            <a href="">Section3-C</a>
+            <div>Sub-section <br>
+                <a href="">Return</a>
+                <a href="https://in.search.yahoo.com/">Yahoo</a>
+                <a href="">Cancel</a>
+            </div>
+        </div>
+
+        <div class="third">Section3 <br>
+            <a href="">Section3-A</a>
+            <a href="">Section3-B</a>
+            <a href="">Section3-C</a>
+            <div>Sub-section <br>
+                <a href="">Next</a>
+                <a href="">Previous</a>
+                <a href="https://twitter.com">Twitter</a>
+            </div>
+        </div>
+
+    </div>
+    </nav>
+</body>
+</html>
