@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#box{
+            width: 100%;
+            height: 200px;
+            border: dashed;
+        }
+        span{
+            background-color: blue;
+        }
+        span+div{
+            width: 200px;
+            height: 200px;
+            border: 3px solid gold;
+            align-content: center;
+            display: inline-block;
+        }
+        #Click{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">Hey it's block element</div><br>
+    <span>Hello! It's inline element.</span>
+    <div>Hey it's inline-block element.</div><br>
+    <div id="Click" style="display: none;">Hey it's hidden element.</div><br>
+    <button onclick="ToggleElement()">Click Me!</button>
+    <script>
+        function ToggleElement(){
+            let para=document.
+            getElementById("Click")
+            if(para.style.display==="none"){
+                para.style.display="block"
+            }
+            else{
+                para.style.display="none"
+            }
+        }
+    </script>
+</body>
+</html>
