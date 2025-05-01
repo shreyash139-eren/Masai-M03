@@ -3,12 +3,14 @@
     padding: 0;
 }
 h1{
+    /* to center the heading */
     display: flex;
     justify-content: center;
 }
 .container {
+    /* added display flex and some other adjustments to center the child boxes */
     display: block;
-    padding: 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,17 +18,17 @@ h1{
 }
 
 .box {
+    /* changed position to relative and removed negative margin  */
     width: 100px;
     height: 100px;
     background: lightblue;
     border: 1px solid black;
-    margin: -10px;
     position: relative;
 }
 
 .text {
+    /* added display flex and changed the position to sticky, so it can stick at the same place and removed some non essentials. */
     display: flex;
     position: sticky;
-    top: 0;
     justify-content: space-evenly;
 }
