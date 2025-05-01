@@ -3,17 +3,15 @@
     padding: 0;
 }
 div#Main{
-    margin: 20px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(345px,1fr));
     grid-gap: 15px;
 
 }
 div#Main>div{
-    min-height: 260px;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     border: 1px solid;
     background: linear-gradient(rgb(175, 227, 206),rgb(137, 199, 203),rgb(151, 196, 202),white);
 }
