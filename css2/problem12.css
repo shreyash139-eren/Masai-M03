@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction default value is row so when we add display as flex every box inside the container gets arranged in a row but when we change the flex direction to column boxes inside the container gets aligned in a column. */
+}
+.container>div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 1px solid;
+}
