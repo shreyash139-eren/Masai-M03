@@ -18,12 +18,15 @@ h1{
 }
 
 .box {
-    /* changed position to relative and removed negative margin  */
+    /* changed position to relative,removed negative margin and moved the box contents to the center */
     width: 100px;
     height: 100px;
     background: lightblue;
     border: 1px solid black;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
