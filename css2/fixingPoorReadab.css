@@ -1,0 +1,27 @@
+*{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 50px; 
+    margin-top: 50px;
+    background-color: aqua;
+}
+.container>div{
+    padding: 20px;
+    width: 80%;
+    font-size: 14px;
+    border: 1px solid gold;
+}
+@media (width>=600px){
+    .container>div{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}
